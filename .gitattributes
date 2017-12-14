@@ -4,15 +4,18 @@
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
+*.docx   diff=astextplain
+*.DOCX   diff=astextplain
+*.dot    diff=astextplain
+*.DOT    diff=astextplain
+*.pdf    diff=astextplain
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 *.md	 diff=astextplain
 *.MD	 diff=astextplain
 
-*.tpl   diff=Go
+*.tpl    linguist-language=Go
+*.js     linguist-language=Go
+*.css    linguist-language=Go
+*.html   linguist-language=Go
